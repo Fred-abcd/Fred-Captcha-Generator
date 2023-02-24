@@ -50,7 +50,8 @@ function createCaptchaImage(captcha) {
 		var y1 = Math.random() * canvas.height;
 		var x2 = Math.random() * canvas.width;
 		var y2 = Math.random() * canvas.height;
-		var color = 'rgb(' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ')';
+		//var color = 'rgb(' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ')';
+		var color = 'rgb(255, 255, 255)';
 		ctx.beginPath();
 		ctx.moveTo(x1, y1);
 		ctx.lineTo(x2, y2);
