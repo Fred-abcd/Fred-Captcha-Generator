@@ -1,0 +1,63 @@
+/**
+ * Copyright 2023 'Fred
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body {
+	background-color: #444;
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
+
+.container {
+	width: 80%;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #222;
+	border-radius: 10px;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+img {
+	margin: 20px 0;
+}
+
+input {
+	padding: 10px;
+	font-size: 16px;
+	width: 70%;
+	max-width: 300px;
+	margin: 20px 0;
+	border-radius: 5px;
+	border: none;
+}
+
+button {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #fff;
+	color: #222;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #eee;
+}
